@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<title>Pamplonna</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Pamplonna</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Acerca de</a>
+      <a href="#restaurant" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide"  style="max-width:1600px;min-width:200px" id="home">
+  <IMG class="w3-image" src="images/logo.jpg" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+<hr>
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64  w3-container " id="about">
+
+
+    <div class="w3-center w3-card-2 w3-container ">
+      <hr>
+      <h1 class="w3-center">Misión</h1><br>
+      <p class="w3-large">
+        Satisfacer las necesidades gastronómicas de nuestros clientes,
+        ofreciendo platillos exquisitos y servicioscon la más alta calidad,
+        donde se sobrepasen las expectativas de nuestros consumidores.
+
+        <hr>
+
+        <h1 class="w3-center">Vision</h1><br>
+
+        <p class="w3-large">
+          Convertirnos en una famosa cadena de restaurantes de cortes de carne
+          en el estado, baásandonos en el servicio, comodidad, ambiente y calidad.
+
+        <hr>
+
+        <h1 class="w3-center">Objetivo General</h1><br>
+
+        <p class="w3-large">
+            Satisfacer el paladar de los comensales a través de la combinación de platillos de cortes
+            de carne regia para lograr la satisfacción y aprobación de nuestros clientes posicionándolos como los
+            numero uno en nuestra región.
+
+          <hr>
+    </div>
+  </div>
+
+<hr>
+  <h1 class="w3-center" id="restaurant">El Menu</h1>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-48" id="menu">
+      <!-- Menu Container -->
+      <div class="w3-container" id="menu">
+        <div class="w3-content" style="max-width:700px">
+
+          <div class="w3-row w3-center w3-card-2 w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+              <div class="w3-col s6 tablink">Comida</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+              <div class="w3-col s6 tablink">Bebidas</div>
+            </a>
+          </div>
+
+          <div id="Eat" href="javascript:void(0)"  class="w3-container menu w3-padding-48 w3-card-2">
+
+            <div class="w3-card-2 w3-container w3-center">
+                <hr>
+                <img src="images/p1.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+                <h5>Carne ala grilla $200.00</h5>
+              <p class="w3-text-grey">Rico Spaghetti rojo con limoda natural o mineral y un delicoso postre incluido</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container w3-center">
+              <hr>
+              <img src="images/p2.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Chuleta $150.00</h5>
+              <p class="w3-text-grey">Rica chuleta de res con un sason especial</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container w3-center">
+              <hr>
+              <img src="images/p3.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Carne a la Mexicana $60.00</h5>
+              <p class="w3-text-grey">Carne preparada con pimientos</p><br>
+            </div>
+
+              <hr>
+
+            <div class="w3-card-2 w3-container w3-center">
+              <hr>
+              <img src="images/p4.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Parrillada $250.00</h5>
+              <p class="w3-text-grey">Parrillada mixta con diferentes tipos de carne</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container w3-center" >
+              <hr>
+              <img src="images/p5.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+
+              <h5>Fajitas de Carne $80.00</h5>
+              <p class="w3-text-grey">Fajitas Azadas con sason especial de la casa</p>
+            </div>
+
+          </div>
+
+          <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
+            <div class="w3-card-2 w3-container  w3-center ">
+              <hr>
+              <img src="images/cafe.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Cafe $18.00</h5>
+              <p class="w3-text-grey">Prueba un cafe preparado con granos de la Region</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container  w3-center ">
+              <hr>
+              <img src="images/cerveza.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Cerveza $20 .00</h5>
+              <p class="w3-text-grey">Disfruta de una cerveza helada con Tarro congelado, Victora, Corona, Tecate, Modelo Especial</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container w3-center ">
+              <hr>
+              <img src="images/michelada.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+
+              <h5>Michelada $70.00</h5>
+              <p class="w3-text-grey">Degusta de una deliciona Michelada</p><br>
+            </div>
+
+            <hr>
+
+            <div class="w3-card-2 w3-container w3-center">
+              <hr>
+              <img src="images/refresco.jpg" class=" w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="500">
+              <h5>Refresco $15.00</h5>
+              <p class="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <hr>
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+
+    <div id="reservacion" class="w3-card-2 w3-container">
+      <h1>Reservacion</h1><br>
+      <form action="#reservacion" class="w3-center">
+        <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Fecha y Hora de llegada" required name="date" value="2017-8-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Ocupara Estacionamiento (Si/No)" required name="Estacionamiento"></p>
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="Numero de Personas" required name="Numero"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Area Climatizada (Si/No)" required name="Clima"></p>
+        <p><button class="w3-button w3-light-grey w3-section" type="submit">Realizar Reservacion</button></p>
+      </form>
+    </div>
+
+    <hr>
+
+    <div id="facturacion" class="w3-card-2 w3-container">
+      <h1>Facturacion</h1><br>
+      <form action="#facturacion" class="w3-center">
+
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="Codigo de Ticket" required name="Codigo"></p>
+        <p><button class="w3-button  w3-light-grey w3-section" type="submit">Enviar Ticket</button></p>
+      </form>
+    </div>
+
+    <hr>
+
+    <div class="w3-card-2 w3-container">
+      <h1>Horarios</h1><br>
+          <h4 class="w3-text-blue-grey w3-large">Ofrecemos servicio de lunes a sabado a partir de 8 Am a 10 PM  y los domingos de 10 AM a 8 PM</h4>
+    </div>
+
+      <br>
+
+      <div class="w3-card-2 w3-container">
+        <h1>Como llegar</h1>
+            <h4 class="w3-text-blue-grey w3-large"><b>Carretera Federal #175 Boulevard Bicentenario, El acuyo</b></h4>
+      </div>
+        <br>
+
+    <div class="w3-card-2 w3-container">
+      <h1>Contacto</h1>
+      <h4 class="w3-text-blue-grey w3-large">Tambien puedes comunicarte con nosotros por telefono al 2871283373, al correo sonia@hotmail.com o a la pagina de facebook Pamplonna</h5>
+    </div>
+
+<!--
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+
+  -->
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+</footer>
+
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+
+function showDiv1() {
+  document.getElementById("op1").classList.add('w3-black');
+  document.getElementById("op1").classList.remove('w3-hover-black');
+
+  document.getElementById("op2").classList.add('w3-hover-black');
+  document.getElementById("op2").classList.remove('w3-black');
+
+  document.getElementById("op3").classList.add('w3-hover-black');
+  document.getElementById("op3").classList.remove('w3-black');
+
+  document.getElementById("op4").classList.add('w3-hover-black');
+  document.getElementById("op4").classList.remove('w3-black');
+
+   document.getElementById("food1").style.display = "block";
+   document.getElementById("food2").style.display = "none";
+   document.getElementById("food3").style.display = "none";
+   document.getElementById("food4").style.display = "none";
+}
+function showDiv2() {
+  document.getElementById("op1").classList.add('w3-hover-black');
+  document.getElementById("op1").classList.remove('w3-black');
+
+  document.getElementById("op2").classList.add('w3-black');
+  document.getElementById("op2").classList.remove('w3-hover-black');
+
+  document.getElementById("op3").classList.add('w3-hover-black');
+  document.getElementById("op3").classList.remove('w3-black');
+
+  document.getElementById("op4").classList.add('w3-hover-black');
+  document.getElementById("op4").classList.remove('w3-black');
+
+  document.getElementById("food1").style.display = "none";
+  document.getElementById("food2").style.display = "block";
+  document.getElementById("food3").style.display = "none";
+  document.getElementById("food4").style.display = "none";
+
+}
+function showDiv3() {
+  document.getElementById("op1").classList.add('w3-hover-black');
+  document.getElementById("op1").classList.remove('w3-black');
+
+  document.getElementById("op2").classList.add('w3-hover-black');
+  document.getElementById("op2").classList.remove('w3-black');
+
+  document.getElementById("op3").classList.add('w3-black');
+  document.getElementById("op3").classList.remove('w3-hover-black');
+
+  document.getElementById("op4").classList.add('w3-hover-black');
+  document.getElementById("op4").classList.remove('w3-black');
+
+  document.getElementById("food1").style.display = "none";
+  document.getElementById("food2").style.display = "none";
+  document.getElementById("food3").style.display = "block";
+  document.getElementById("food4").style.display = "none";
+}
+function showDiv4() {
+  document.getElementById("op1").classList.add('w3-hover-black');
+  document.getElementById("op1").classList.remove('w3-black');
+
+  document.getElementById("op2").classList.add('w3-hover-black');
+  document.getElementById("op2").classList.remove('w3-black');
+
+  document.getElementById("op3").classList.add('w3-hover-black');
+  document.getElementById("op3").classList.remove('w3-black');
+
+  document.getElementById("op4").classList.add('w3-black');
+  document.getElementById("op4").classList.remove('w3-hover-black');
+
+  document.getElementById("food1").style.display = "none";
+  document.getElementById("food2").style.display = "none";
+  document.getElementById("food3").style.display = "none";
+  document.getElementById("food4").style.display = "block";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>
