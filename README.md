@@ -2,7 +2,8 @@
 
 Esta es una pagina de un restaurante
 
-HICE ALGUN CAMBIO 1
+
+QUITE ESE CAMBIO
 
 Nombre del alumno: KEVIN DAVID MOLINA GOMEZ
 <br/>
