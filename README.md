@@ -8,4 +8,4 @@ Numero de Control: 14350241
 
 Preview:
 
-[Link de mi pagina] (https://dle.rae.es/p%C3%A1gina)
+[Link de mi pagina](https://dle.rae.es/p%C3%A1gina)
