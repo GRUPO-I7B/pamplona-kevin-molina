@@ -3,7 +3,8 @@
 Esta es una pagina de un restaurante
 
 
-QUITE ESE CAMBIO
+ESTA ES LA ALPHA
+
 
 Nombre del alumno: KEVIN DAVID MOLINA GOMEZ
 <br/>
