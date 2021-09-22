@@ -3,7 +3,7 @@
 Esta es una pagina de un restaurante
 
 
-ESTA YA NUEVA VERSION
+ESTOY EN ALPHA
 
 Nombre del alumno: KEVIN DAVID MOLINA GOMEZ
 <br/>
